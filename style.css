@@ -30,3 +30,12 @@ h2 {
     color: rgb(120, 120, 243);
 }
 
+#americano {
+    display: inline;
+    text-decoration: none;
+    color: rgb(181, 218, 218);
+}
+
+#icedimage {
+    margin-bottom: 30px;
+}
