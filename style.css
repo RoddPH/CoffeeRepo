@@ -5,13 +5,26 @@
 }
 
 body {
+    margin-left: 10px;
     background-color: rgb(49, 82, 45);
     font-family: sans-serif, 'Times New Roman', serif;
 }
 
 #coffee {
+    display: flex;
     height: 400px;
+
 }
 
+#title {
+    margin-bottom: 50px;
+}
 
+h2 {
+    margin-bottom: 30px;
+}
+
+#icedlatte {
+    color: rgb(120, 120, 243);
+}
 
