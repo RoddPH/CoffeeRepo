@@ -8,3 +8,28 @@
     height: 400px;
     width: 400px;
 }
+
+.icedlink {
+    font-size: 30px;
+    text-decoration: none;
+    color: inherit; 
+}
+
+#icedlattebody {
+    background-color: rgb(102, 45, 45);
+}
+
+#americanobody {
+    background-color: rgb(130, 190, 165);
+}
+
+.americano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.americano img{
+    height: 400px;
+    width: 400px;
+}
