@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .navigation {
     display: flex;
     align-items: center;
@@ -41,3 +43,26 @@ a {
 .name h2{
     color: rgb(195, 207, 139);
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 820px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    padding: 16px;
+}
+
