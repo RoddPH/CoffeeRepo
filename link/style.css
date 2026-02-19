@@ -1,36 +1,39 @@
-.latte1 {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
     display: flex;
-    justify-content: center;
     align-items: center;
+    background: rgb(236, 230, 230);
+    gap: 16px;
+    padding: 16px;
 }
 
-.latte1 img{
-    height: 400px;
-    width: 400px;
+.navigation img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: 5px solid black;
 }
 
-.icedlink, 
-.espresso {
-    font-size: 30px;
+a { 
+    display: flex;
     text-decoration: none;
+    color: red;
+    font-size: 30px;
 }
 
-#icedlattebody {
-    background-color: rgb(102, 45, 45);
+#about {
+    text-decoration: underline green;
 }
 
-#americanobody {
-    background-color: rgb(130, 190, 165);
-}
-
-.americano {
+.name {
     display: flex;
-    justify-content: center;
+    background: darkgreen;
+    height: 70px;
     align-items: center;
+    padding: 16px;
 }
-
-.americano img{
-    height: 400px;
-    width: 400px;
-}
-
