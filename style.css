@@ -4,48 +4,36 @@
     box-sizing: border-box;
 }
 
-body {
-    margin-left: 10px;
-    background-color: rgb(49, 82, 45);
-    font-family: sans-serif, 'Times New Roman', serif;
-}
-
-#coffee {
+.navigation {
     display: flex;
-    height: 400px;
-
+    align-items: center;
+    background: rgb(236, 230, 230);
+    gap: 16px;
+    padding: 16px;
 }
 
-#title {
-    margin-bottom: 50px;
+.navigation img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: 5px solid black;
 }
 
-h2 {
-    margin-bottom: 30px;
-}
-
-#icedlatte {
-    display: inline;
+a { 
+    display: flex;
     text-decoration: none;
-    color: rgb(120, 120, 243);
+    color: red;
+    font-size: 30px;
 }
 
-#americano {
-    display: inline;
-    text-decoration: none;
-    color: rgb(181, 218, 218);
+#home {
+    text-decoration: underline green;
 }
 
-#icedimage {
-    margin-bottom: 30px;
-}
-
-#j1 {
-    font-size: 50px;
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
-
-#j2 {
-    font-size: 50px;
+.name {
+    display: flex;
+    background: darkgreen;
+    height: 70px;
+    align-items: center;
+    padding: 16px;
 }

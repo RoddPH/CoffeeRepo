@@ -9,10 +9,10 @@
     width: 400px;
 }
 
-.icedlink {
+.icedlink, 
+.espresso {
     font-size: 30px;
     text-decoration: none;
-    color: inherit; 
 }
 
 #icedlattebody {
@@ -33,3 +33,4 @@
     height: 400px;
     width: 400px;
 }
+
