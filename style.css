@@ -37,3 +37,7 @@ a {
     align-items: center;
     padding: 16px;
 }
+
+.name h2{
+    color: rgb(195, 207, 139);
+}
