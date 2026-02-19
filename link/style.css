@@ -32,6 +32,10 @@ a {
     text-decoration: underline green;
 }
 
+#review {
+    text-decoration: underline green;
+}
+
 .name {
     display: flex;
     background: darkgreen;
@@ -68,5 +72,8 @@ a {
     padding: 16px;
 }
 
-/* copy pasted */
-
+.content h2 {
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
