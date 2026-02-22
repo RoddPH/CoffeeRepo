@@ -77,3 +77,30 @@ a {
     font-family: sans-serif;
     font-size: 40px;
 }
+
+.icedpic {
+    background-color: green;
+    padding: 10px;
+    display: flex;
+}
+
+.icedtext {
+    display: flex;
+    margin-left: 60px;
+    font-size: larger;
+    color: white;
+}
+
+.icedpic {
+    background-color: green;
+    padding: 10px;
+    display: flex;
+}
+
+.icedtext {
+    display: flex;
+    margin-left: 60px;
+    font-size: larger;
+    color: white;
+    align-items: center;
+}

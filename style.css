@@ -44,3 +44,15 @@ a {
     color: rgb(195, 207, 139);
 }
 
+.icedpic {
+    background-color: green;
+    padding: 10px;
+    display: flex;
+}
+
+.icedtext {
+    display: flex;
+    margin-left: 60px;
+    font-size: larger;
+    color: white;
+}
